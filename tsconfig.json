@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "strictFunctionTypes": true,
+        "noFallthroughCasesInSwitch": true,
+        "skipLibCheck": true,
+        "stripInternal": true,
+        "sourceMap": true,
+        "declaration": true,
+        "newLine": "LF",
+        "importHelpers": true,
+        "lib": [
+            "es5"
+        ],
+        "outDir": "output"
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "output",
+        "dist",
+        "lib"
+    ]
+}
